@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Designmate LoginTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.740">
+  <properties />
+  
+  
+            <testcase name="designmateLogintest" time="4.790" classname="com.w2a.testcases.DesignmateLoginTest" />
+                <testcase name="designmateLogintest" time="3.340" classname="com.w2a.testcases.DesignmateLoginTest" />
+                <testcase name="designmateLogintest" time="3.610" classname="com.w2a.testcases.DesignmateLoginTest" />
+      
+</testsuite>

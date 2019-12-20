@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter">	</listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter">	</listener>
+		<listener class-name="com.w2a.listeners.CustomListeners">	</listener>
+	</listeners>
+	<test name="Designmate LoginTest">
+		<classes>
+			<class name="com.w2a.testcases.DesignmateLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Designmate SignUp">
+		<classes>
+			<class name="com.w2a.testcases.DesignmateSignUpTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
